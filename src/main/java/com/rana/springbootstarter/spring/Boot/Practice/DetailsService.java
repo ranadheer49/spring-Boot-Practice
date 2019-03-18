@@ -33,4 +33,13 @@ public class DetailsService {
 	}
 	
 	
+
+	public Details sendDetails1() {
+		details.setId(1);
+		details.setName("Test Name");
+		details.setMarks(50.00);
+		
+		return details;
+	}
+	
 }
