@@ -32,4 +32,11 @@ public class ProductDetails {
 		
 	}
 
+	
+	@GetMapping(path = "/getDetailsObjects")
+	public Details getDetialsObject1() {
+		
+		return detailsservice.sendDetails();
+		
+	}
 }
