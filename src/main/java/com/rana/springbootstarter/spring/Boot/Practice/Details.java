@@ -8,8 +8,16 @@ public class Details {
 	private Integer id;
 	private String Name;
 	private Double Marks;
+	private String Master;
 	
-	
+	public String getMaster() {
+		return Master;
+	}
+
+	public void setMaster(String master) {
+		Master = master;
+	}
+
 	public Details() {
 		super();
 	}
