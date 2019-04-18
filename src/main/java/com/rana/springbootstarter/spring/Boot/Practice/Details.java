@@ -8,6 +8,7 @@ public class Details {
 	private Integer id;
 	private String Name;
 	private Double Marks;
+<<<<<<< HEAD
 	private String Master;
 	
 	public String getMaster() {
@@ -16,6 +17,17 @@ public class Details {
 
 	public void setMaster(String master) {
 		Master = master;
+=======
+	private int govID;
+	
+	
+	public int getGovID() {
+		return govID;
+	}
+
+	public void setGovID(int govID) {
+		this.govID = govID;
+>>>>>>> gov-id
 	}
 
 	public Details() {
