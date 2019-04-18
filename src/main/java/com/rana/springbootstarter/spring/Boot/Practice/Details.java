@@ -8,8 +8,17 @@ public class Details {
 	private Integer id;
 	private String Name;
 	private Double Marks;
+	private int govID;
 	
 	
+	public int getGovID() {
+		return govID;
+	}
+
+	public void setGovID(int govID) {
+		this.govID = govID;
+	}
+
 	public Details() {
 		super();
 	}
