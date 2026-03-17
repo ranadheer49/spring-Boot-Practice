@@ -43,18 +43,10 @@ H2 / MySQL (depending on module)
 📦 Clean and modular code structure
 
 🏗️ Project Structure
-spring-Boot-Practice/
-│
-├── src/main/java/
-│   ├── controller/      # REST Controllers
-│   ├── service/         # Business Logic
-│   ├── repository/      # Data Access Layer
-│   ├── entity/          # Database Entities
-│
-├── src/main/resources/
-│   ├── application.yml  # Configurations
-│
-├── pom.xml              # Dependencies
+<img width="399" height="261" alt="image" src="https://github.com/user-attachments/assets/7f2f8215-17cc-48e2-8c8f-ee338b2f84e2" />
+
+
+
 🚀 Getting Started
 1. Clone the repository
 git clone https://github.com/ranadheer49/spring-Boot-Practice.git
